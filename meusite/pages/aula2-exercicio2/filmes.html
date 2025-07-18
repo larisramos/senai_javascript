@@ -4,17 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmes</title>
+        <style>
+        body{
+            background-color: #fefcfb;
+            font: 16px Poppins;
+        }
+
+        #cabecalho{
+            background-color: white;
+            padding: 30px;
+
+        }
+
+        .menu{
+            background-color: #e30513;
+            color: white;
+            /* A seguir é trabalhado o espaçamento/ alinhamento de elementos (hiperlinks) do menu. 
+            padding -> Cria uma area de respiro para o elemento não ficar "colado" na borda.
+            display -> Define como um elemento se comporta com outros no layout.
+            gap -> Define a distância entre um elemento e o próximo.
+            justify-content-> Alinha os elementos junto ao "display: flex;".
+            */
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            
+            a, a:visited{
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover{
+                color:black;
+            }
+        }
+
+        .subtitulo{
+            text-align: center;
+        }
+
+    </style>
+
 </head>
 <body>
-    <ul type="circle">
-        <li>Favorito de Giovana</li>
-        <p>Atráves da sua Janela</p>
-        <li>Favorito de Guilherme</li>
-        <p>RIU</p>
-        <li>Favorito de Henrique</li>
-        <p>Cavalheiro das Trevas</p>
-        <li>Favorito de Larissa</li>
-        <p>Zohan</p>
+     
+    <div id="cabecalho">
+        <h1>Cultura SENAI - Indaiatuba</h1>
+        <p>Descubra as tendências e obtenha indicações culturais por nossos queridos estudantes.</p>
+    </div>
+    
+    <div class="menu">
+        <a href="index.html">HOME</a>
+        <a href="">FILMES</a>
+        <a href="livro.html">LIVROS</a>
+        <a href="esporte.html">ESPORTES</a>
+    </div>
+
+    <div class="subtitulo">
+        <h2>Filmes</h2>
+        <p>Indicações do mês para vocês relaxarem.</p>
+    </div>
+
+
+    <ul type="">
+        <li><strong>Geovana: </strong>Atráves da Sua Janela.</li>
+        <li><strong>Guilherme: </strong>Riu.</li>
+        <li><strong>Henrique: </strong> Batman: O Cavaleiro das Trevas.</li>
+        <li><strong>Larissa: </strong>Zohan: Um Agente Bom de Corte.</li>
     </ul>
+
 </body>
 </html>

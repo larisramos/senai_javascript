@@ -4,8 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cultura SENAI - Indaiatuba</title>
+    <style>
+        body{
+            background-color: #fefcfb;
+            font: 16px Poppins;
+            text-align: justify;
+        }
+
+        #cabecalho{
+            background-color: white;
+            padding: 30px;
+
+        }
+
+        .menu{
+            background-color: #e30513;
+            color: white;
+            /* A seguir é trabalhado o espaçamento/ alinhamento de elementos (hiperlinks) do menu. 
+            padding -> Cria uma area de respiro para o elemento não ficar "colado" na borda.
+            display -> Define como um elemento se comporta com outros no layout.
+            gap -> Define a distância entre um elemento e o próximo.
+            justify-content-> Alinha os elementos junto ao "display: flex;".
+            */
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            
+            a, a:visited{
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover{
+                color:black;
+            }
+        }
+
+        .subtitulo{
+            text-align: center;
+        }
+      
+
+    </style>
+
 </head>
 <body>
     
+    <div id="cabecalho">
+        <h1>Cultura SENAI - Indaiatuba</h1>
+        <p>Descubra as tendências e obtenha indicações culturais por nossos queridos estudantes.</p>
+    </div>
+    
+    <div class="menu">
+        <a href="">HOME</a>
+        <a href="filmes.html">FILMES</a>
+        <a href="livro.html">LIVROS</a>
+        <a href="esporte.html">ESPORTES</a>
+    </div>
+
+    <div class="subtitulo">
+        <h2>Painel Cultural</h2>
+        <p>Navegue pelo menu acima e descubra as tendências indicadas pelos alunos do curso de Desenvolvimento JavaScript.</p>
+    </div>
+
+    <br>
+
+    <p>Confira alguns de nossos alunos: <strong><em>Geovana</em>, <em>Guilherme</em>, <em>Henrique</em></strong> e <strong><em>Larissa</em></strong>.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iusto incidunt asperiores, magni quis reiciendis! Nam nesciunt saepe natus nihil esse exercitationem, excepturi explicabo iure consequatur harum error soluta? Temporibus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt adipisci sapiente ex architecto nemo modi enim sint, officia delectus repudiandae quaerat fugit harum illo excepturi nihil, officiis fugiat, est consequatur!
+    Quas minus sapiente nesciunt ut eveniet porro accusantium itaque dolor optio alias. Quam architecto, temporibus exercitationem consequuntur itaque omnis quasi eligendi, placeat recusandae, ea nisi? Consequuntur repellat perspiciatis possimus non.
+    Amet illum in, ab repudiandae quia accusamus vel quidem cum doloremque esse aliquid pariatur nostrum porro omnis voluptatibus quas quae quaerat deleniti maxime provident quibusdam veritatis non impedit! Incidunt, ducimus!</p>
+
 </body>
 </html>
