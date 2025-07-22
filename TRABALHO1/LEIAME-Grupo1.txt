@@ -1,0 +1,15 @@
+Empresa Gran Turista
+
+Desenvolvedores do site: Geovana, Guilherme, Henrique e Lucas.
+
+Linguagens utilizadas: CSS, HTML.
+
+Objetivo do site: Contar a história das cidades para atrair turismo para tais.
+
+Cidades: São Luís do Maranhão, Porto de Galinhas e Paraty.
+
+Design do site:
+O site é baseado em layot de 3 cores, sendo elas: Vermelho, branco e preto. Como backgroung temos uma imagem para ilustrar a experiência do turismo da cidade. Além disso o site também consta com imagens das cidades, onde esses são de fundos arredondados. 
+
+Caso dê erro no site: 
+Contate a equipe de desenvolvedores pelo e-mail suporte@suporte.com
