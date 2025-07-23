@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro exemplo tabela</title>
+    <link rel="stylesheet" href="style/style-tabela.css">
 </head>
 <body>
     <h1>Tabela</h1>
-
+    <!-- tag para iniciar a tabela -->
     <table>
-        
+        <!-- Identifica o cabeçalho da tabela -->
+        <thead>
+            <!-- Inicia linha -->
+            <tr class="titulo">
+                <!-- INICIA A COLUNA -->
+                <td>ID:</td><td>Veículo:</td><td>Valor:</td><td>Marca:</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td id="promocao">Civic</td><td>R$ 120.000,00</td><td>Honda</td></tr>
+            <tr><td>2</td><td>Polo</td><td>R$ 95.000,00</td><td>Volkswagen</td></tr>
+            <tr><td>3</td><td>Onix</td><td>R$ 89.000,00</td><td>Chevrolet</td></tr>
+            <tr><td>4</td><td>HB20</td><td>R$ 74.000,00</td><td>Hyundai</td></tr>
+            <tr><td>5</td><td>Celta</td><td>R$ 45.000,00</td><td>Chevrolet</td></tr>
+
+        </tbody>
     </table>
 
 

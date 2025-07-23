@@ -1,0 +1,38 @@
+table{
+    /* borda externa */
+    border: 2px solid black;
+    /* Largura da tabela */
+    width: 600px;
+    background-color: lightskyblue;
+    /* Aqui vamos fazer a borda colapsar, transformando a interna e a externa em apenas uma. */
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+td{
+    /* Borda interna */
+    border: 1px solid black;
+    padding: 10px;
+
+}
+body{
+    background-color: lightpink;
+}
+
+h1{
+    text-align: center;
+}
+thead{
+    font-weight: bold;
+    padding: 20px;
+}
+.titulo{
+    background-color: lightslategray;
+}
+/* ID utilizamos apenas UMA vez. Já a classe podemos utilizar diversas vezes. 
+O ID começa com "#" e a classe com ponto ".", ambas seguidas do nomes.*/
+#promocao{
+    background-color: rgb(228, 66, 66);
+}
+
