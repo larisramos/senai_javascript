@@ -35,4 +35,9 @@ O ID começa com "#" e a classe com ponto ".", ambas seguidas do nomes.*/
 #promocao{
     background-color: rgb(228, 66, 66);
 }
+tbody{
+    height:200px ;/*Altura do corpo da tabela */
+    vertical-align: middle; /* Alinhamento vertical do conteúdo */
+    
+}
 
