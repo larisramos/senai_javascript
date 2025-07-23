@@ -34,6 +34,8 @@ thead{
 O ID começa com "#" e a classe com ponto ".", ambas seguidas do nomes.*/
 #promocao{
     background-color: rgb(228, 66, 66);
+    color: white;
+    font-weight: bolder;
 }
 tbody{
     height:200px ;/*Altura do corpo da tabela */
