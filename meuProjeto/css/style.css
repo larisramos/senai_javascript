@@ -6,3 +6,10 @@ img{
     width: 100px;
     height: auto;
 }
+
+/* Alinhando a imagem através de div e classe */
+.centralizar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

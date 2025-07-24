@@ -1,6 +1,14 @@
-body{
+/* body{
     background-image: url('../assets/mario.gif');
     background-repeat: no-repeat;
     background-position: top center;
     
+} */
+body {
+    background-image: url('../assets/Fundo.jpg');
+    /* com o cover a imagem se adapta ao padrão da tela */
+    background-size: cover;
+    font: 16px Arial, sans-serif;
+    text-align: center;
+    color: white;
 }
