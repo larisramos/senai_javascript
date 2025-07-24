@@ -1,0 +1,51 @@
+/* --hunyadi-yellow: #f6bd60ff;
+--linen: #f7ede2ff;
+--tea-rose-red: #f5cac3ff;
+--cambridge-blue: #84a59dff;
+--light-coral: #f28482ff; 
+tabela: 600 px de largura
+tbody 100 de altura
+todos os td 10px de espaçamento interno */
+
+body{
+    background-color: #f7ede2;
+    text-align: center;
+    font: 16px Arial, sans-serif;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    margin:auto;
+}
+tbody{
+    height: 100px;
+    background-color: #f5cac3;
+}
+td, th{
+    padding: 20px;
+    border: 1px solid black;
+}
+th{
+    background-color: #f6bd60;
+}
+.finalSemana{
+    background-color: #f28482;
+}
+.mesOff{
+    background-color: #d3cdcd;
+}
+.marcador{
+    background-color: #94d2bd;
+}
+#importante{
+    background-color: #84a59d;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    background-color: #94d2bd;
+    padding: 10px;
+    font-weight: bolder;
+}
