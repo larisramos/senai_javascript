@@ -1,0 +1,8 @@
+body{
+    background-image: url('../images/Spotify.png');
+    background-repeat: no-repeat;
+    background-position: center center; /*Alinhamento horizontal e vertical*/
+    height: 100vh; /*O body tem 100% da altura da tela*/
+    margin: 0; /*Remove a margem padrão do body*/
+    background-color: black;
+ }

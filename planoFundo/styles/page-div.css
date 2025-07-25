@@ -1,0 +1,47 @@
+div{
+    /* width: 500px; */
+    margin: auto; /*alinha por igual direita e esquerda*/
+    border-radius: 15px; /*Aplicando arredondamento nas bordas*/
+    padding: 10px; /*Aplicando espaçamento interno, como se fosse uma moldura*/
+
+}
+
+.azul{
+    background-color: blue;
+    height: 100px;
+
+}
+
+.verde{
+    background-color: rgb(15, 220, 15);
+    margin-top: 15px; /*Aplicando margem ao topo da div*/
+    margin-bottom: 15px; /*Aplicando margem a base da div*/
+    height: 50px;
+    text-align: center;
+    color: white;
+    font: 16pt Arial, Helvetica, sans-serif;
+    /* vertical-align: middle; Alinhando verticalmente o texto */
+    line-height: 50px; /*Alinhando verticalmente o texto com a altura da div*/
+}
+
+.verde a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none; /*Removendo o sublinhado do link*/
+}
+
+.verde a:hover{
+    color: black; /*Mudando a cor do link quando o mouse passa por cima*/
+}
+
+.vermelho{
+    background-color: red;
+    height: 330px;
+}
+
+.vermelho p{
+    font: 16pt Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify; /*Alinhando o texto justificado*/
+    margin: 10px; /*Aplicando margem ao texto*/
+}
