@@ -1,7 +1,49 @@
-.logo{
-    img {
-        width: 30px;
-        height: auto;
-        margin: 10px;
+/* PALETA DE CORES
+#1db954	(29,185,84)
+#212121	(33,33,33)
+#121212	(18,18,18)
+#535353	(83,83,83)
+#b3b3b3 */
+
+body{
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+}
+
+header#cabecalho{
+    background-color: black;
+    width: auto;
+    height: 2rem;
+    padding: 1rem;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+
+    a{
+        text-decoration: none;
+        color: white;
     }
+    a:hover{
+        text-decoration: none;
+        color: #1db954;
+    }
+}
+
+.logo{
+    float: left;
+    img{
+        width: 6rem;
+        height: auto;
+    }
+}
+
+.menu-lateral{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+ul li {
+    display: inline-block;
 }
