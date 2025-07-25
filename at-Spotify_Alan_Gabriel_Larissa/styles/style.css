@@ -1,7 +1,7 @@
 /* PALETA DE CORES
 #1db954	(29,185,84) VERDE SPOTIFY
-#212121	(33,33,33)
-#121212	(18,18,18)
+#212121	(33,33,33) PRETO MEDIO SPOTIFY
+#121212	(18,18,18) PRETO SPOTIFY
 #535353	(83,83,83)
 #b3b3b3 */
 
@@ -119,4 +119,56 @@ body{
     width: 150px;
     height: auto;
     padding: 10px;
+}
+
+#plataformas {
+    background-image: url('../assets/img/img_gradiente_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* padding: 8.5rem; */
+    font-weight: bolder;
+    padding-top: 15rem;
+}
+
+#plataformas ul li{
+    font-weight: bold;
+    font-size: 10pt;
+    display: inline-block;
+    padding: 10px ;
+}
+
+#plataformas ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#plataformas ul li a:hover {
+    color: aqua;
+}
+
+#plataformas-conteudo {
+    padding-bottom: 0.3rem;
+}
+
+#sobreSpotify {
+    font-size: 9pt;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+/* ZERANDO A MARGEM DA TABELA */
+#sobreSpotify table {
+    width: auto;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+#sobreSpotify table thead{
+    color: #535353;
+}
+
+#sobreSpotify table td {
+    padding: 0.5rem 1.2rem;
 }
