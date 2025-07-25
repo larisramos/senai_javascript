@@ -5,51 +5,8 @@
 #535353	(83,83,83)
 #b3b3b3 */
 
-/* body{
-    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
-}
-
-header#cabecalho{
-    background-color: black;
-    width: auto;
-    height: 2rem;
-    padding: 1rem;
-    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
-    color: white;
-    font-weight: bold;
-
-    a{
-        text-decoration: none;
-        color: white;
-    }
-    a:hover{
-        text-decoration: none;
-        color: #1db954;
-    }
-}
-
-.logo{
-    float: left;
-    img{
-        width: 6rem;
-        height: auto;
-    }
-}
-
-.menu-lateral{
-    float: right;
-}
-
-.clear{
-    clear: both;
-}
-
-ul li {
-    display: inline-block;
-} */
-
 body{
-    font: 16px Arial, Helvetica, sans-serif;
+    font: 16pt Arial, Helvetica, sans-serif;
     background-color: #121212; /*Preto Spotify*/
     color: white; /*Cores fontes*/
 }
@@ -104,4 +61,62 @@ body{
 
 .menu-lateral ul li a:hover{
     color: #1db954;
+}
+
+.clear{
+    clear: both;
+}
+
+#conteudo{
+    background-image: url('../assets/img/img_listen-music_1_corte.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 8rem 2rem 2rem;
+    text-align: center;
+    max-width: auto;
+    height: 40rem;
+    
+    /* border: 1px solid #1db954; */
+}
+
+#conteudo .texto{
+    padding: 20rem;
+    font-weight: bolder;
+    /* Aplicando sombra gradiente no texto */
+    text-shadow: 0 5px 10px black;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#conteudo .texto a{
+    font-size: small;
+    font-weight: lighter;
+    color: white;
+}
+
+#download {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5rem;
+}
+
+#download h2{
+    font-weight: bolder
+}
+
+#download p {
+    font-size: medium;
+    font-weight: lighter;
+}
+
+#download ul li{
+    display: inline-block;
+}
+
+#download ul li a img{
+    width: 150px;
+    height: auto;
+    padding: 10px;
 }
