@@ -1,0 +1,78 @@
+body{
+    background-color: darkgray;
+    font-family: 16pt, Arial, Helvetica, sans-serif;
+}
+div{
+    width: 900px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.cabecalho{
+    background-color: white;
+    height: 100px;
+
+}
+.cabecalho img {
+    height: 100px;
+    width: auto;
+}
+
+.menu{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.menu a{
+    font: 14pt Arial;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-inline: 10px;
+}
+.menu a:hover{
+    color: black;
+}
+
+.conteudo-texto{
+    margin-top: 10px;
+    background-color: white;
+    height: auto;
+    text-align: justify;
+    font: 12pt Arial, Helvetica, sans-serif;
+}
+
+.conteudo-video{
+    margin-top: 10px;
+    background-color: white;
+    height: auto;
+    text-align: center;
+}
+
+#imagem02{
+    width: 50%;
+    height: auto;
+}
+
+#imagem01{
+    width: 45%;
+    height: auto;
+}
+
+.rodape{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    height: 25px;
+    font: 10pt Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+/* ALINHANDO O TEXTO DO RODAPÉ */
+.rodape p{
+    margin: 0; /*Removendo margem do parágrafo*/
+    line-height: 25px; /*Alinhando verticalmente o texto com a altura da div*/
+}
