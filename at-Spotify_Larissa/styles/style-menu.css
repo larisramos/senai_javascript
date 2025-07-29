@@ -37,10 +37,15 @@ body{
 }
 
 
+.menu-lateral{
+    margin-right: 60px;
+}
+
+
 .menu-lateral ul{
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.5rem;    
     margin: 0;
     list-style: none;
     margin-top: 0.5rem;
@@ -171,4 +176,23 @@ body{
 
 #sobreSpotify table td {
     padding: 0.5rem 1.2rem;
+}
+
+#logo-table {
+    width: 100px;
+    height: auto;
+}
+#logo-instagram {
+    width: 25px;
+    height: auto;
+    /* border: #b3b3b3 1px solid; */
+    
+}
+#logo-X {
+    width: 25px;
+    height: auto;
+}
+#logo-facebook {
+    width: 13px;
+    height: auto;
 }
