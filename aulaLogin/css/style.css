@@ -1,3 +1,17 @@
+/* 
+Qual  a função dos seguintes comandos no CSS?
+
+1. box-sizing: border-box;
+R.: O comando box-sizing com o seu valor border-box define que onde for aplicado, será considerado
+o tamanho de seus elementos como conteúdo, padding e borda e aplicará a dimensão redimensionada/ resultante desse cálculo. 
+
+2. display: block;
+R.: O display block utiliza 100% do espaço, o que estiver na frente ele empurra, tanto para frente quanto para baixo.
+    Pega a linha completa 
+
+*/
+
+
 body{
     /* background: radial-gradient(circle, lightgreen, pink, lightblue); */
     background: linear-gradient(to bottom, lightgreen, lightblue, hotpink);
@@ -23,6 +37,10 @@ body{
 .form-group{
     text-align: left;
     margin-bottom: 15px;
+    /* O display block Usa 100% do espaço, o que estiver na frente ele empurra, tanto para frente quanto para baixo.
+    Pega a linha completa */
+    display: block;
+
     
 }
 
@@ -32,12 +50,30 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura total */
 }
 
 input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box; /* Inclui padding e border no cálculo da largura total */
+    border: 1px solid gray;
+    border-radius: 8px;
+    /* box-sizing: border-box; Inclui padding e border no cálculo da largura total */
+}
+
+.btn-login {
+    width: 100%;
+    background-color: rgb(7, 226, 226);
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12pt;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    font-size: 10pt;
+    color: gainsboro;
+    margin-top: 5px;
 }
