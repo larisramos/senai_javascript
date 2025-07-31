@@ -1,0 +1,43 @@
+body{
+    /* background: radial-gradient(circle, lightgreen, pink, lightblue); */
+    background: linear-gradient(to bottom, lightgreen, lightblue, hotpink);
+    height: 100vh;
+    /* HABILITANDO ALINHAMENTO */
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    /* zerando a margem */
+    margin: 0;
+}
+
+
+.container{
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+     
+}
+
+.form-group{
+    text-align: left;
+    margin-bottom: 15px;
+    
+}
+
+/* ao usar '*' asteriscos, podemos pesquisar itens, assim aplicando padrões */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura total */
+}
