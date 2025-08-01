@@ -1,0 +1,8 @@
+Cores para identidade visual:
+
+#78bf36 - Verde folha
+#2ecc71 - Verde caixa
+#145a32 - Verde escuro
+#333333 - Cinza grafite
+#ffffff - Branco
+#000000 - Preto
