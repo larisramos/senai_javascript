@@ -52,8 +52,8 @@ let valor2 = 7;
 let resultado = valor1 + valor2;
 alert("Resultado: " + resultado);
 */
-
-let valor1 = prompt("Digite o primeiro valor: ");
-let valor2 = prompt("Digite o segundo valor: ");
+// conversão explicita de tipos 
+let valor1 = Number(prompt("Digite o primeiro valor: "));
+let valor2 = Number(prompt("Digite o segundo valor: "));
 let resultado = valor1 + valor2;
 alert("Resultado: " + resultado);
