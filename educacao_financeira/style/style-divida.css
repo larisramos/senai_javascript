@@ -2,12 +2,49 @@ body {
     background-image: linear-gradient(55deg, #36BFB1, #038C73, #02735E, #014034, #0D0D0D);
     height: 100vh;
     width: auto;
-    
-    justify-content: center;
-    /* display: flex;
-    align-items: center; */
     margin: 0;
     font: normal 14pt monospace;
+}
+
+#cabecalho {
+    margin: 0;
+    background-color: white;
+    text-align: center;
+}
+
+#logo img{
+    height: 200px;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu {
+    background-color: black;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.menu ul {
+    display: flex; /* Use flexbox para melhor controle */
+    justify-content: center; /* Centralize os itens */
+    gap: 35px; /* Espaçamento moderno entre itens */
+    list-style-type: none;
+    margin: 0;
+}
+
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: greenyellow;
 }
 
 #container {
