@@ -7,10 +7,23 @@
 </head>
 <body>
     <script>
+        /*
+            1- Por que precisamos utilizar utilizar o "Number" em alguns casos quando usamos o "prompt"?
+            R: Porque o prompt retorna uma string e precisamos converter para número para realizar operações matemáticas.
+
+            2- Qual a diferença entre o "while" e o "for"?
+            R: O "while" é usado quando não sabemos o número de iterações de antemão, enquanto o "for" é usado quando sabemos quantas vezes queremos iterar.
+        
+        */
+
         let cont = 1;
+        let calculo;
 
         while (cont < 11) {
-            
+            calculo = cont *3;
+            // document.write("3 x " + cont + " = " + calculo + "<br>");
+            cont++;
+            document.write(calculo + "<br>");
         }
     </script>
 
